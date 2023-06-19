@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    margin-top: 10px;
+    background: linear-gradient(#00ccff, rgba(255, 0, 0, 0.853));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.col {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 80px;
+}
+
+.col div {
+    width: 180px;
+    text-align: center;
+}
+
+input {
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width: 480px) {
+    input {
+        width: 80px;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .col {
+        margin-top: 20px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 80px;
+    }
+    .title {
+        background: linear-gradient(#00ccff, rgba(255, 0, 0, 0.853));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    input {
+        width: 80px;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .col {
+        margin-top: 20px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 80px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .title {
+        background: linear-gradient(#00ccff, rgba(255, 0, 0, 0.853));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .title {
+        background: linear-gradient(#00ccff, rgba(255, 0, 0, 0.853));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1605px) {
+   
+}
